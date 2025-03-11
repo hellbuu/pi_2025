@@ -1,0 +1,25 @@
+def checador_de_triangulo(a, b, c) -> str:
+    if a + b > c and a + c > b and b + c > a:
+        if a == b == c:
+            res = "Equilátero"
+        elif a == b or a == c or b == c:
+            res = "Isósceles"
+        else:
+            res = "Escaleno"
+        return res  
+    else:
+        return "Não tem nenhum triângulo aqui." 
+
+def main():
+    a = int(input("Digite o lado A: "))
+    b = int(input("Digite o lado B: "))
+    c = int(input("Digite o lado C: "))
+    
+    resultado = checador_de_triangulo(a, b, c)
+    print(resultado) 
+
+main()
+
+
+
+        
