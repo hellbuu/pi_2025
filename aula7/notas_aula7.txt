@@ -1,0 +1,9 @@
+O for é utilizado para percorrer listas, tuplas, strings e intervalos
+
+lista são mutáveis, tuplas não
+
+for VARIÁVEL in SEQUÊNCIA
+
+O que seria o range()?
+
+for VARIÁVEL in range(5) # vai de 0 a 5 e não conta o último
