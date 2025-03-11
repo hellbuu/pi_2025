@@ -1,0 +1,13 @@
+def m3(n1, n2):
+    soma = 0
+    for i in range(n1):
+        for j in range(n2):
+            soma += 1
+    return soma
+
+def main():
+    n = int(input())
+    m = int(input())
+    print(m3(n, m))
+    
+main()
