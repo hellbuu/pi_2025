@@ -1,0 +1,20 @@
+# caixa registradora 
+
+soma = 0
+itens = 0
+
+while True:
+    qtd = int(input())
+    #print(qtd)
+    
+    if qtd == 0:
+        break
+    
+    preco = float(input())
+    precao = qtd * preco
+    #print(precao)
+    
+    soma = soma + precao
+    itens = itens + qtd
+
+print(f"foram levados {itens} itens e custou {soma:.2f} reais.")

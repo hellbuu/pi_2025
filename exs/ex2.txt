@@ -1,0 +1,21 @@
+# tabela de idh
+
+def onu(n):
+    for i in range(n):
+        pais = str(input())
+        idh = float(input())
+    
+        if idh > 0.8:
+            print(f"{pais} possui IDH muito alto.")
+        elif 0.7 < idh <= 0.8:
+            print(f"{pais} possui IDH alto.")
+        elif 0.55 < idh <= 0.7:
+            print(f"{pais} possui IDH médio.")
+        else:
+            print(f"{pais} possui IDH baixo.")
+
+def main():
+    n = int(input())
+    onu(n)
+    
+main()
