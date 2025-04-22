@@ -1,6 +1,0 @@
-m = int(input())
-for i in range(m): # faz m iterações
-    n = int(input()) # a cada itereção pede um número
-    for j in range(1 , n+1): 
-        print(j, end=" ") # printa na mesma linha todos os números anteriores a n, incluindo n, um de cada vez
-    print() # pula uma linha e vai pra próxima m iteração

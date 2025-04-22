@@ -1,0 +1,41 @@
+# listas (vetor com itens do mesmo tipo)
+
+gaveta = [] # criei a lista e armazenei em gaveta
+gaveta = ['ola', 'mundo']
+print(gaveta)
+print(gaveta[1])
+gaveta[1] = "caralho" # posso mudar os itens
+print(gaveta)
+print(gaveta[1])
+gaveta.append("suave") # posso acrescentar itens
+print(gaveta)
+del gaveta[2] # posso deletar itens pela posição
+print(gaveta)
+gaveta.remove("ola") # posso deletar pelo nome
+print(gaveta)
+
+# posso tirar um item para jogar em outra lista
+#balaio = []
+#sonho = gaveta.pop(1)
+#balaio.append(sonho)
+#print(gaveta)
+#print(balaio)
+
+# criando uma lista de sonhos 
+lista_de_sonhos = []
+lista_de_sonhos.append("comprar uma casa na praia")
+lista_de_sonhos.append("tirar minha habilitação")
+lista_de_sonhos.append("fuder o cuzinho da taylor swift kkkkkk")
+
+#i = 0
+#sonhos = None
+
+print(lista_de_sonhos)
+
+#while sonhos != "":
+#    sonhos = input("Digite um sonho: ")
+#    lista_de_sonhos.append(sonhos)
+#    i += 1
+
+#print(lista_de_sonhos[0:-1])
+
