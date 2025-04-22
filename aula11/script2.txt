@@ -1,7 +1,7 @@
 lista = []
 lista.append("era só")
-lista.append(5)
-lista.append("bucetas")
+lista.append(uma)
+lista.append("bucetada")
 lista.append("na minha cara agora")
 
 print(len(lista))
