@@ -1,0 +1,11 @@
+# percorrendo lista (vetor) com for
+
+lista = [5, 4, 3, 2, 1]
+cacete = ["alo", "rio de janeiro"]
+
+for i in range(len(lista)):
+    print(lista[i])
+    
+for elementor in cacete:
+    print(elementor, end=" ") 
+     

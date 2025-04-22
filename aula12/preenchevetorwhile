@@ -1,0 +1,15 @@
+# preenchendo vetores (listas) com while
+
+lista = []
+
+while len(lista) < 5:
+    item = input()
+    #if item.lower() == 'sair':
+        #break
+    if item == "0":
+        break
+    
+    lista.append(item)
+
+#print("Itens na lista:")
+print(lista)

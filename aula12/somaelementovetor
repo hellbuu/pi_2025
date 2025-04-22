@@ -1,0 +1,23 @@
+# somando elementos de um vetor
+
+
+def recebe_lista(L:[int]) -> int :
+    acc = 0
+    
+    # pega primeiro elemento, soma em acc e manda outro for
+    # pega terceiro elemento, soma em acc
+    for i in range (0, len(L), 2) :
+        acc += L[i]
+        
+    # pega segundo elemento, soma em acc 
+    # pega quarto elemento e soma em acc
+    for j in range (1, len(L), 2) :
+        acc += L[j]
+    return acc
+    
+def main():
+    lista = [1,2,3,4]
+    print(m3(lista))
+    
+main()
+
