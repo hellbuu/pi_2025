@@ -1,0 +1,12 @@
+# criando uma matriz de 1 via laço
+
+M = list()
+
+for i in range(3):
+    naruto = list()
+    for j in range(3):
+            naruto.append(1)
+    M.append(naruto)
+    print(naruto)
+    print()
+#print(M)

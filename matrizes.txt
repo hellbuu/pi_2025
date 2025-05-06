@@ -1,0 +1,29 @@
+# matrizes
+
+# criando manualmente
+neo = [
+    ["alo", "meu", "povo"], 
+    ["adios", "mi", "pueblo"], 
+    [1, 2, 3]
+    ]
+print(neo)
+
+# alterando alguma coisa
+neo[1][0] = "aoba"
+print(neo)
+
+# criando uma matriz identidade via laço
+
+M = list()
+
+for i in range(10):
+    naruto = list()
+    for j in range(10):
+        if i == j:
+            naruto.append(1)
+        else:
+            naruto.append(0)
+    M.append(naruto)
+    print(naruto)
+    print()
+#print(M)
